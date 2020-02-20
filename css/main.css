@@ -27,6 +27,28 @@ span {
     margin-top: 10px;
 }
 
+#signin-signup{
+    color: #868686;
+    float: right;
+    margin-top: 16px;
+}
+
+#signin-signup a{
+    margin-right: 14px;
+    background-color: #353535;
+    padding: 8px;
+}
+
+#signin-signup a:hover{
+    margin-right: 14px;
+    background-color: #353535;
+    padding: 8px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+
+
 nav#menu {  /*2° cabeçalho do topo*/
     top: 50px;
     background-color: #353535;
