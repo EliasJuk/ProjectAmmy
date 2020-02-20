@@ -3,6 +3,11 @@
     margin: 0px; /* Remover margin padrão */
 }
 
+html {
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
 body {
     background-color: white; /*cor de fundo*/
     font-family: Arial, Helvetica, sans-serif; /*Font Padrão*/
@@ -37,6 +42,18 @@ span {
     margin-right: 14px;
     background-color: #353535;
     padding: 8px;
+    text-decoration: none;
+}
+
+
+#signin-signup a:visited {
+    text-decoration: none;
+    color: #868686;
+}
+
+a:active {
+    text-decoration: none; 
+    
 }
 
 #signin-signup a:hover{
@@ -46,8 +63,6 @@ span {
     color: blueviolet;
     text-decoration: none;
 }
-
-
 
 nav#menu {  /*2° cabeçalho do topo*/
     top: 50px;
