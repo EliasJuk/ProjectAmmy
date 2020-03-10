@@ -1,0 +1,22 @@
+{
+  "name": "ammyia",
+  "version": "1.0.0",
+  "description": "artificial intelligence for data processing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliasJuk/AmmyIA.git"
+  },
+  "author": "eliasjuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EliasJuk/AmmyIA/issues"
+  },
+  "homepage": "https://github.com/EliasJuk/AmmyIA#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
