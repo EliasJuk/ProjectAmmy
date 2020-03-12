@@ -1,9 +1,17 @@
 const express = require('express')
 const app = express();
 
+// View Engine
+    app.set('view engine','ejs')
+    app.use(express.static('public'))
+
 //ROTAS
     app.get('/',(req, res)=>{
-        res.send('...')
+        res.render('index')
+    })
+
+    app.get('/sobre',(req,res)=>{
+        res.render('sobre')
     })
 
 
@@ -11,7 +19,7 @@ const app = express();
     //SERVER
         app.listen(8081,(err)=>{
             if(err){
-                console.log("ERROR")
+                console.log("ERROR",err)
             }
             else{
                 console.log('OK')
