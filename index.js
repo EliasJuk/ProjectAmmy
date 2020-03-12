@@ -18,6 +18,10 @@ const app = express();
         res.render('signup')
     })
 
+    app.get('/processar',(req,res)=>{
+        res.render('processar')
+    })
+
 
 //CONFIG
     //SERVER
