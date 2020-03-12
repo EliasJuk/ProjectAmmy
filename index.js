@@ -14,6 +14,10 @@ const app = express();
         res.render('sobre')
     })
 
+    app.get('/signup',(req,res)=>{
+        res.render('signup')
+    })
+
 
 //CONFIG
     //SERVER
